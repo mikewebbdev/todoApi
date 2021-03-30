@@ -1,0 +1,13 @@
+{
+    "name": "will1471/todo-api",
+    "type": "project",
+    "description" : "Coding task",
+    "require": {
+        "slim/slim": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "TodoApi\\": "./src"
+        }
+    }
+}
