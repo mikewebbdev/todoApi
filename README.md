@@ -6,6 +6,8 @@
 composer install
 php -S localhost:8888 -t public public/index.php
 ```
+Edit the database connection username/password in src/settings.php
+Import the included orlo.sql database to your mysql server.
 
 ## Routes
 
