@@ -38,3 +38,8 @@ Import the included orlo.sql database to your mysql server.
 => Takes an array of 'itemDesc', 'itemDue' and 'itemComplete' and updates an item where # is the item id
 - DELETE localhost:8888/todoApi/listItems/#/##
 => Deletes an item where # is the list id, and ## is the item id. Additionally deletes matching entries from the todo_items_lists table
+
+## Future improvements
+- Verbose errors / error logging
+- Data validation (although potentially not needed if validation is carried out before the request is sent ie on the front end)
+- Fix error generated when an empty list (no items) is deleted
