@@ -5,9 +5,9 @@ return [
         'displayErrorDetails' => true,
         'db' => [
             'host' => '127.0.0.1', // $_SERVER['DB_HOST],
-            'dbname' => 'orlo', // $_SERVER['DB_NAME'],
-            'user' => 'phpmyadmin', // $_SERVER['DB_USER'],
-            'pass' => 'qwer1234' // $_SERVER['DB_PASS'],
+            'dbname' => 'name_of_database', // $_SERVER['DB_NAME'],
+            'user' => 'mysql_user', // $_SERVER['DB_USER'],
+            'pass' => 'super_secret_password' // $_SERVER['DB_PASS'],
         ],
     ],
 ];
